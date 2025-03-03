@@ -37,3 +37,7 @@ Thumbs.db
 # Папки з загрузками і медіа, якщо вони великі
 uploads/
 media/
+
+# SASS
+.sass-cache/
+main.css.map

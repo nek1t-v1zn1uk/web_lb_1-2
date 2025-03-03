@@ -1,0 +1,24 @@
+{
+  "name": "web_lb_1-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass main.scss main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nek1t-v1zn1uk/web_lb_1-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nek1t-v1zn1uk/web_lb_1-2/issues"
+  },
+  "homepage": "https://github.com/nek1t-v1zn1uk/web_lb_1-2#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
