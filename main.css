@@ -5,7 +5,9 @@
 }
 
 body {
-  background-color: #3333DD;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .nav-menu {
@@ -29,6 +31,34 @@ body {
 }
 .nav-menu li a:hover {
   background-color: #111133;
+}
+.nav-menu li a.active {
+  background-color: #111165;
+}
+
+main {
+  flex: 1;
+  background-color: #3333DD;
+}
+
+.greeting {
+  text-align: center;
+  margin: 0 100px;
+  padding: 50px 20px;
+  background-color: #40acf1;
+}
+.greeting h1 {
+  font-size: xxx-large;
+}
+.greeting p {
+  font-size: xx-large;
+}
+
+footer {
+  text-align: center;
+  background-color: #111122;
+  color: #FFFFFF;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,6 +1,12 @@
 $color-back: #3333DD;
 $color-back-dark: #111155;
 $color-back-darker: #111133;
+$color-dark-active: #111165;
+
+$color-back-light: #40acf1;
+
+$color-back-black: #111122;
+
 $color-text: #FFFFFF;
 
 *{
@@ -10,7 +16,9 @@ $color-text: #FFFFFF;
 }
 
 body{
-  background-color: $color-back;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .nav-menu {
@@ -32,6 +40,39 @@ body{
       &:hover{
         background-color: $color-back-darker;
       }
+      &.active{
+        background-color: $color-dark-active;
+      }
     }
   }
 }
+
+main{
+  flex: 1;
+  background-color: $color-back;
+}
+
+.greeting{
+  text-align: center;
+  margin: 0 100px;
+  padding: 50px 20px;
+  background-color: $color-back-light;
+
+  h1{
+    font-size: xxx-large;
+  }
+  p{
+    font-size: xx-large;
+  }
+}
+
+footer{
+  text-align: center;
+  background-color: $color-back-black;
+  color: $color-text;
+  padding: 20px;
+}
+
+
+
+
