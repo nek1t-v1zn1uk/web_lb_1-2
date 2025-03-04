@@ -1,5 +1,34 @@
-.text {
-  color: #111111;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3333DD;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #111155;
+  font-weight: 550;
+}
+.nav-menu li {
+  flex: 1;
+  text-align: center;
+}
+.nav-menu li a {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: xx-large;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.nav-menu li a:hover {
+  background-color: #111133;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,37 @@
-$color1: #111111;
+$color-back: #3333DD;
+$color-back-dark: #111155;
+$color-back-darker: #111133;
+$color-text: #FFFFFF;
 
-.text{
-  color:$color1;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: $color-back;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: $color-back-dark;
+  font-weight: 550;
+  li{
+    flex: 1;
+    text-align: center;
+    a{
+      display: block;
+      text-decoration: none;
+      color: $color-text;
+      font-size: xx-large;
+      box-sizing: border-box;
+      padding: 10px 0;
+      &:hover{
+        background-color: $color-back-darker;
+      }
+    }
+  }
 }
