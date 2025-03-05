@@ -80,6 +80,10 @@ main{
   }
 }
 
+.about{
+  @include general;
+}
+
 footer{
   text-align: center;
   background-color: $color-back-black;
